@@ -1,0 +1,19 @@
+E:\LTNDuc\Lab5_LTHDT\Lab5_LTHDT\bin\Debug\Lab5_LTHDT.exe.config
+E:\LTNDuc\Lab5_LTHDT\Lab5_LTHDT\bin\Debug\Lab5_LTHDT.exe
+E:\LTNDuc\Lab5_LTHDT\Lab5_LTHDT\bin\Debug\Lab5_LTHDT.pdb
+E:\LTNDuc\Lab5_LTHDT\Lab5_LTHDT\obj\Debug\Lab5_LTHDT.csprojAssemblyReference.cache
+E:\LTNDuc\Lab5_LTHDT\Lab5_LTHDT\obj\Debug\Lab5_LTHDT.Form1.resources
+E:\LTNDuc\Lab5_LTHDT\Lab5_LTHDT\obj\Debug\Lab5_LTHDT.Properties.Resources.resources
+E:\LTNDuc\Lab5_LTHDT\Lab5_LTHDT\obj\Debug\Lab5_LTHDT.csproj.GenerateResource.cache
+E:\LTNDuc\Lab5_LTHDT\Lab5_LTHDT\obj\Debug\Lab5_LTHDT.csproj.CoreCompileInputs.cache
+E:\LTNDuc\Lab5_LTHDT\Lab5_LTHDT\obj\Debug\Lab5_LTHDT.exe
+E:\LTNDuc\Lab5_LTHDT\Lab5_LTHDT\obj\Debug\Lab5_LTHDT.pdb
+E:\LTNDuc\Lab5_LTHDT - BK\Lab5_LTHDT\bin\Debug\Lab5_LTHDT.exe.config
+E:\LTNDuc\Lab5_LTHDT - BK\Lab5_LTHDT\bin\Debug\Lab5_LTHDT.exe
+E:\LTNDuc\Lab5_LTHDT - BK\Lab5_LTHDT\bin\Debug\Lab5_LTHDT.pdb
+E:\LTNDuc\Lab5_LTHDT - BK\Lab5_LTHDT\obj\Debug\Lab5_LTHDT.Form1.resources
+E:\LTNDuc\Lab5_LTHDT - BK\Lab5_LTHDT\obj\Debug\Lab5_LTHDT.Properties.Resources.resources
+E:\LTNDuc\Lab5_LTHDT - BK\Lab5_LTHDT\obj\Debug\Lab5_LTHDT.csproj.GenerateResource.cache
+E:\LTNDuc\Lab5_LTHDT - BK\Lab5_LTHDT\obj\Debug\Lab5_LTHDT.csproj.CoreCompileInputs.cache
+E:\LTNDuc\Lab5_LTHDT - BK\Lab5_LTHDT\obj\Debug\Lab5_LTHDT.exe
+E:\LTNDuc\Lab5_LTHDT - BK\Lab5_LTHDT\obj\Debug\Lab5_LTHDT.pdb
