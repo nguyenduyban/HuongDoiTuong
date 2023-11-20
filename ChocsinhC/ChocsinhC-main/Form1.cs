@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,9 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp1
+namespace WindowsFormsApp3
 {
-    
     public partial class Form1 : Form
     {
         public Form1()
@@ -35,14 +34,23 @@ namespace WindowsFormsApp1
                 return null;
             }
         }
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
         private void btnThem_Click(object sender, EventArgs e)
         {
             CHocSinh n = new CHocSinh();
-            n.MSHS = txtMSHS.Text;
-            n.HoTen = txtHoTen.Text;
+            n.MSHS = txtMaHS.Text;
+            n.HoTen = txtTenHS.Text;
             n.NgaySinh = dtpNgaySinh.Value;
             n.Phai = rdbNam.Checked;
-            n.DiaChi = txtHoTen.Text;
+            n.DiaChi = txtDiaChi.Text;
             if (timHS(n.MSHS) == null)
             {
                 dsHS.Add(n.MSHS, n);
@@ -53,15 +61,29 @@ namespace WindowsFormsApp1
                 MessageBox.Show("Ma so hoc sinh " + n.MSHS + " da ton tai.Khong them duoc!");
         }
 
+        private void clear()
+        {
+            txtMaHS.Text = "";
+            txtTenHS.Text = "";
+            dtpNgaySinh.Value = DateTime.Today;
+            rdbNam.Checked = false;
+            txtDiaChi.Text = "";
+
+        }
+
         private void dgvHocSinh_RowEnter(object sender, DataGridViewCellEventArgs e)
         {
             string mahs = dgvHocSinh.Rows[e.RowIndex].Cells[0].Value.ToString();
             CHocSinh hs = dsHS[mahs];
-            txtMSHS.Text = hs.MSHS;
-            txtHoTen.Text = hs.HoTen;
+            txtMaHS.Text = hs.MSHS;
+            txtTenHS.Text = hs.HoTen;
             dtpNgaySinh.Value = hs.NgaySinh;
             rdbNam.Checked = hs.Phai;
             txtDiaChi.Text = hs.DiaChi;
+        }
+        private void Nam_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
 
         private void btnXoa_Click(object sender, EventArgs e)
@@ -83,28 +105,17 @@ namespace WindowsFormsApp1
                 int index = dgvHocSinh.SelectedRows[0].Index;
                 string mshs = dgvHocSinh.Rows[index].Cells[0].Value.ToString();
                 CHocSinh hs = dsHS[mshs];
-                hs.HoTen = txtHoTen.Text;
+                hs.HoTen = txtTenHS.Text;
                 hs.NgaySinh = dtpNgaySinh.Value;
                 hs.Phai = rdbNam.Checked;
                 hs.DiaChi = txtDiaChi.Text;
                 HienThi();
             }
         }
-        private void clear()
-        {
-            txtMSHS.Text = "";
-            txtHoTen.Text = "";
-            dtpNgaySinh.Value = DateTime.Today;
-            rdbNam.Checked = false;
-            txtDiaChi.Text = "";
 
-        }
-       private bool LuuFile(string filename)
+        private void btnLuu_Click(object sender, EventArgs e)
         {
-            try
-            {
-               
-            }
-        }
+
+        }                             
     }
 }
